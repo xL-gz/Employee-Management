@@ -1,0 +1,36 @@
+{
+  "name": "employee-management",
+  "version": "1.0.0",
+  "description": "员工后台管理系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xL-gz/Employee-Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xL-gz/Employee-Management/issues"
+  },
+  "homepage": "https://github.com/xL-gz/Employee-Management#readme",
+  "dependencies": {
+    "element-plus": "^2.10.5",
+    "pinia": "^3.0.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^5.0.1",
+    "vue-tsc": "^3.0.5"
+  }
+}
