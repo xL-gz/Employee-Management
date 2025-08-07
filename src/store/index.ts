@@ -1,6 +1,8 @@
 import { createPinia } from 'pinia'
 
-// 创建 Pinia 实例
-const store = createPinia()
+const pinia = createPinia()
 
-export default store
+export default pinia
+
+export * from './modules/employee'
+export * from './modules/menu'
